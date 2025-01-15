@@ -126,8 +126,8 @@ export default function App() {
   };
 
   const stopRecording = async () => {
-    GizoSdk.stopRecording();
     setIsRunning(false);
+    GizoSdk.stopRecording();
   };
 
   return (
