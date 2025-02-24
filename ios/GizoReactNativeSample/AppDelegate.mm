@@ -2,6 +2,7 @@
 
 #import <React/RCTBundleURLProvider.h>
 #import <GizoSDK/GizoSDK-Swift.h>
+#import <Firebase.h>
 
 @implementation AppDelegate
 
@@ -27,6 +28,8 @@
   } else {
       NSLog(@"[SDK]: Initialization failed, reason: %@", result.failure.debugDescription);
   }
+  
+  [FIRApp configure];
 }
 
 - (NSURL *)sourceURLForBridge:(RCTBridge *)bridge

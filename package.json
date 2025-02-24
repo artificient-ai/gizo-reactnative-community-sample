@@ -10,7 +10,9 @@
     "test": "jest"
   },
   "dependencies": {
-    "@gizo-sdk/core": "^1.0.3",
+    "@gizo-sdk/core": "^1.0.4-alpha-02",
+    "@react-native-firebase/app": "^21.11.0",
+    "@react-native-firebase/crashlytics": "^21.11.0",
     "expo": "^52.0.0",
     "react": "18.3.1",
     "react-native": "0.76.5",
